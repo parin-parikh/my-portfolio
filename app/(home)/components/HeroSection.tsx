@@ -1,10 +1,11 @@
 import Link from 'next/link'
 import React from 'react'
 import Title from './Title'
+import ResumeButton from './ResumeButton'
 
 export default function HeroSection() {
   return (
-    <div className='min-h-[60vh] flex flex-col-reverse gap-14 lg:gap-0 lg:flex-row items-center justify-between'>
+    <div className='min-h-[60vh] flex flex-col-reverse gap-14 lg:gap-0 lg:flex-row items-center justify-between animate-move-up'>
         <div className='space-y-10 text-center lg:text-left'>
             <h1 className='text-4xl lg:text-7xl font-bold'>
                 Nice to meet you! 
@@ -16,6 +17,7 @@ export default function HeroSection() {
             <Link href={"mailto:parinparikh1@gmail.com"} className='inline-block group'>
                 <Title text='Contact Me 📬' />
             </Link>
+            <ResumeButton />
         </div>
         <div>
             <div className='w-72 h-72 space-y-3 -rotate-[30deg] relative'>

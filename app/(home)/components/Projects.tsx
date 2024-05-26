@@ -12,35 +12,28 @@ export default function Projects() {
         tech: [SiReact, SiSass, SiHtml5],
         link: "https://strmlne.dev",
         cover: "/strmlne.PNG",
-        background: "bg-indigo-500",
-        github: false
+        background: "bg-indigo-500"
     },
     {
         title: "Check Your Source",
         tech: [SiReact, SiHtml5, SiCss3],
         link: "https://syndicategit.github.io/CheckYourSource/",
         cover: "/CheckYourSource.jpg",
-        background: "bg-green-500",
-        github: true,
-        githubLink: "https://github.com/SyndicateGit/CheckYourSource"
+        background: "bg-green-500"
     },
     {
         title: "Maze Game",
         tech: [SiJavascript, SiHtml5, SiCss3],
         link: "https://parin-parikh.github.io/mazeGame/",
         cover: "/maze-project.PNG",
-        background: "bg-green-500",
-        github: true,
-        githubLink: "https://github.com/parin-parikh/mazeGame"
+        background: "bg-green-500"
     },
     {
         title: "Music Player",
         tech: [SiJavascript, SiHtml5, SiCss3],
         link: "https://parin-parikh.github.io/Music-Player/",
         cover: "/music-player.PNG",
-        background: "bg-indigo-500",
-        github: true,
-        githubLink: "https://github.com/parin-parikh/Music-Player"
+        background: "bg-indigo-500"
     },
   ]
   return (
@@ -59,13 +52,6 @@ export default function Projects() {
                                             return <Icon className='w-8 h-8' key={index} />
                                         })}
                                     </div>
-                                </div>
-                                <div>
-                                    {project.github ? (
-                                        <div className='w-max h-max p-2 mt-2 bg-gray-900 cursor-pointer'><a href="https://github.com/parin-parikh">GITHUB</a></div>
-                                    ) : (
-                                        <div></div>
-                                    )}
                                 </div>
                             </DirectionAwareHover>
                         </div>

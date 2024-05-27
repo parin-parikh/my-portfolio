@@ -3,7 +3,7 @@
 import React from 'react'
 import Title from './Title'
 import { HoverEffect } from '@/components/ui/card-hover-effect'
-import { SiGit, SiGithub, SiJavascript, SiMicrosoftazure, SiNextdotjs, SiNodedotjs, SiPython, SiReact, SiTailwindcss } from 'react-icons/si'
+import { SiC, SiFlask, SiGit, SiGithub, SiJavascript, SiMicrosoftazure, SiMongodb, SiMysql, SiNextdotjs, SiNodedotjs, SiPython, SiReact, SiTailwindcss } from 'react-icons/si'
 
 export default function Skills() {
   const skills = [
@@ -32,10 +32,6 @@ export default function Skills() {
         Icon: SiGit
     },
     {
-        text: "GitHub",
-        Icon: SiGithub
-    },
-    {
         text: "Azure",
         Icon: SiMicrosoftazure
     },
@@ -43,11 +39,27 @@ export default function Skills() {
         text: "Node.js",
         Icon: SiNodedotjs
     },
+    {
+        text: "MongoDB",
+        Icon: SiMongodb
+    },
+    {
+        text: "Flask",
+        Icon: SiFlask
+    },
+    {
+        text: "MySQL",
+        Icon: SiMysql
+    },
+    {
+        text: "C",
+        Icon: SiC
+    },
   ]
 
   return (
     <div className='max-w-5xl mx-auto px-8'>
-        <Title text='Skills 🛠️' className='flex flex-col items-center justify-center -rotate-6'/>
+        <Title text='Skills 🛠️' className='flex flex-col items-center justify-center'/>
         <HoverEffect items={skills}/>
     </div>
   )

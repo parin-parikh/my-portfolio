@@ -97,6 +97,7 @@ export default function Projects() {
                                                 return <Icon className='w-8 h-8' key={index} />
                                             })}
                                         </div>
+                                        <h1>Click to view on GitHub</h1>
                                     </div>
                                 </DirectionAwareHover>
                             </div>

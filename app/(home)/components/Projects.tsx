@@ -111,7 +111,7 @@ export default function Projects() {
                                 {
                                     project.github && (
                                         <div>
-                                            <a href={project.githubLink} className="rounded underline decoration-indigo-500 hover:text-indigo-300">
+                                            <a href={project.githubLink} className="rounded decoration-indigo-500 hover:text-indigo-300">
                                                 Click to view on GitHub
                                             </a>
                                         </div>
@@ -120,7 +120,7 @@ export default function Projects() {
                                 
                                 {project.demo && (
                                     <div className="ml-auto">
-                                        <a href={project.link} target="_blank" rel="noopener noreferrer" className="rounded underline decoration-green-500 hover:text-green-300">
+                                        <a href={project.link} target="_blank" rel="noopener noreferrer" className="rounded decoration-green-500 hover:text-green-300">
                                             View live demo
                                         </a>
                                     </div>

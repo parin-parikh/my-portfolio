@@ -12,7 +12,7 @@ export default function HeroSection() {
                 <br /> <span className='underline underline-offset-8 decoration-green-500'>{"I am Parin."}</span>
             </h1>
             <p className='md:w-96 text-lg text-gray-300'>
-                {"Based in Ontario, I am a Fullstack developer passionate about building a modern web application that users love."}
+                {"I am a recent graduate from Ontario with a degree in computer science, driven by a passion for developing innovative projects."}
             </p>
             <Link href={"mailto:parinparikh1@gmail.com"} className='inline-block group'>
                 <Title text='Contact Me 📬' />

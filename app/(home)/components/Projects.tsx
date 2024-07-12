@@ -95,24 +95,31 @@ export default function Projects() {
                 {projects.map((project, index) => {
                     return (
                         <div key={index}>
-                            <div className={cn("p-5 rounded-md flex flex-col items-center ", project.background)}>
+                            <div className={cn("p-3 pt-2 rounded-md flex flex-col sm:p-5", project.background)}>
+                                <h1 className='block sm:hidden text-2xl font-bold text-center'>{project.title}</h1>
                                 <DirectionAwareHover imageUrl={project.cover} className='w-full h-64 space-y-5 overflow-hidden'>
                                     <div className='space-y-5'>
-                                        <h1 className='text-2xl font-bold'>{project.title}</h1>
-                                        <div className='flex items-center gap-5'>
+                                        {/* <h1 className='hidden text-2xl font-bold text-left sm:block'>{project.title}</h1> */}
+                                        <h1 className='hidden md:block lg:block text-2xl font-bold text-left'>{project.title}</h1>
+                                        <div className='hidden lg:flex md:flex items-center gap-5'>
                                             {project.tech.map((Icon, index) => {
                                                 return <Icon className='w-8 h-8' key={index} />
                                             })}
                                         </div>
                                     </div>
                                 </DirectionAwareHover>
+                                <div className='block sm:hidden flex justify-center gap-5 mt-3'>
+                                    {project.tech.map((Icon, index) => {
+                                        return <Icon className='w-8 h-8' key={index} />
+                                    })}
+                                </div>
                             </div>
                             <div className="flex justify-between m-2">
                                 {
                                     project.github && (
                                         <div>
                                             <a href={project.githubLink} className="rounded decoration-indigo-500 hover:text-indigo-300">
-                                                Click to view on GitHub
+                                                GitHub
                                             </a>
                                         </div>
                                     )

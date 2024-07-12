@@ -17,13 +17,10 @@ export default function page() {
         <div className='h-10 xl:h-6 bg-gradient-to-t from-black absolute -bottom-5 left-0 xl:bottom-0 w-full'></div>
       </div>
       <div className='max-w-7xl mx-auto p-5 mt-10'>
-        <Skills />
         <Projects />
+        <Skills />
         <Footer />
       </div>
     </div>
   )
 }
-/* https://www.youtube.com/watch?v=dxc20OfAmhs
-https://codersblock.com/blog/creating-glow-effects-with-css/
-*/

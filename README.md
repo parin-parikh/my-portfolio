@@ -20,6 +20,8 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
+This project features a captivating glow effect that enhances the visual appeal and user experience of the web application. Inspired by a tutorial from [`CodersBlock`](https://codersblock.com/blog/creating-glow-effects-with-css/), I implemented this effect to create a modern and distinctive look. The glow effect not only adds a touch of elegance but also serves a functional purpose by highlighting key elements and guiding user interactions seamlessly. Its implementation involved custom CSS techniques tailored to suit the project's aesthetic, contributing significantly to the overall design's innovation and user engagement.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:

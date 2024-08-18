@@ -1,5 +1,5 @@
 import React from 'react'
-import { SiAzurefunctions, SiAzurepipelines, SiCsharp, SiCss3, SiFlask, SiHtml5, SiJavascript, SiMicrosoftazure, SiMongodb, SiNodedotjs, SiPython, SiReact, SiSass, SiSocketdotio, SiSqlalchemy } from 'react-icons/si'
+import { SiAzurefunctions, SiAzurepipelines, SiClerk, SiCloudflareworkers, SiCsharp, SiCss3, SiFirebase, SiFlask, SiHtml5, SiJavascript, SiMicrosoftazure, SiMongodb, SiNextdotjs, SiNodedotjs, SiOpenai, SiPython, SiReact, SiSass, SiSocketdotio, SiSqlalchemy, SiTailwindcss } from 'react-icons/si'
 import Title from './Title'
 import Link from 'next/link'
 import { cn } from '@/lib/utils'
@@ -7,6 +7,16 @@ import { DirectionAwareHover } from '@/components/ui/direction-aware-hover'
 
 export default function Projects() {
     const projects = [
+        {
+            title: "Note Sphere",
+            tech: [SiNextdotjs, SiTailwindcss, SiReact, SiClerk, SiCloudflareworkers, SiFirebase, SiOpenai],
+            link: "https://notesphere-delta.vercel.app/",
+            cover: "/notesphere.png",
+            background: "bg-indigo-500",
+            githubLink: "https://github.com/parin-parikh/NoteSphere",
+            demo: true,
+            github: true
+        },
         {
             title: "Strmlne website",
             tech: [SiReact, SiSass, SiHtml5],
@@ -74,16 +84,6 @@ export default function Projects() {
             cover: "/music-player.PNG",
             background: "bg-indigo-500",
             githubLink: "https://github.com/parin-parikh/Music-Player/",
-            demo: true,
-            github: true
-        },
-        {
-            title: "Maze Game",
-            tech: [SiJavascript, SiHtml5, SiCss3],
-            link: "https://parin-parikh.github.io/mazeGame/",
-            cover: "/maze-project.PNG",
-            background: "bg-indigo-500",
-            githubLink: "https://github.com/parin-parikh/mazeGame/",
             demo: true,
             github: true
         }

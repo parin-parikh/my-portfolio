@@ -108,7 +108,7 @@ export default function Projects() {
                                         </div>
                                     </div>
                                 </DirectionAwareHover>
-                                <div className='block sm:hidden flex justify-center gap-5 mt-3'>
+                                <div className='sm:hidden flex justify-center gap-5 mt-3'>
                                     {project.tech.map((Icon, index) => {
                                         return <Icon className='w-8 h-8' key={index} />
                                     })}

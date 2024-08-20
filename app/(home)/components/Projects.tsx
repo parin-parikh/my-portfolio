@@ -70,7 +70,7 @@ export default function Projects() {
         {
             title: "My old portfolio website",
             tech: [SiJavascript, SiHtml5, SiCss3],
-            link: "https://github.com/parin-parikh/Portfolio_Website/",
+            link: "https://parin-parikh.github.io/Portfolio_Website/",
             cover: "/old_portfolio.PNG",
             background: "bg-indigo-500",
             githubLink: "https://github.com/parin-parikh/Portfolio_Website",

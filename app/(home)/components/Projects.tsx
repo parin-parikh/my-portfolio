@@ -1,5 +1,5 @@
 import React from 'react'
-import { SiAzurefunctions, SiAzurepipelines, SiClerk, SiCloudflareworkers, SiCsharp, SiCss3, SiFirebase, SiFlask, SiHtml5, SiJavascript, SiMicrosoftazure, SiMongodb, SiNextdotjs, SiNodedotjs, SiOpenai, SiPython, SiReact, SiSass, SiSocketdotio, SiSqlalchemy, SiTailwindcss } from 'react-icons/si'
+import { SiAzurefunctions, SiAzurepipelines, SiClerk, SiCloudflareworkers, SiCsharp, SiCss3, SiFirebase, SiFlask, SiHtml5, SiJavascript, SiMicrosoftazure, SiMongodb, SiNextdotjs, SiNodedotjs, SiOpenai, SiPython, SiReact, SiSass, SiSocketdotio, SiSqlalchemy, SiTailwindcss, SiTypescript } from 'react-icons/si'
 import Title from './Title'
 import Link from 'next/link'
 import { cn } from '@/lib/utils'
@@ -34,6 +34,16 @@ export default function Projects() {
             cover: "/resume-website.png",
             background: "bg-indigo-500",
             githubLink: "https://github.com/parin-parikh/my-azure-resume",
+            demo: true,
+            github: true
+        },
+        {
+            title: "Generate Images with AI",
+            tech: [SiNextdotjs, SiReact, SiTailwindcss, SiMicrosoftazure, SiTypescript, SiOpenai],
+            link: "hhttps://ai-image-generator-kappa-beryl.vercel.app/",
+            cover: "/ai-image-generator.PNG",
+            background: "bg-indigo-500",
+            githubLink: "https://github.com/parin-parikh/ai-image-generator",
             demo: true,
             github: true
         },
@@ -76,17 +86,17 @@ export default function Projects() {
             githubLink: "https://github.com/parin-parikh/Portfolio_Website",
             demo: true,
             github: true
-        },
-        {
-            title: "Music Player",
-            tech: [SiJavascript, SiHtml5, SiCss3],
-            link: "https://parin-parikh.github.io/Music-Player/",
-            cover: "/music-player.PNG",
-            background: "bg-indigo-500",
-            githubLink: "https://github.com/parin-parikh/Music-Player/",
-            demo: true,
-            github: true
         }
+        // {
+        //     title: "Music Player",
+        //     tech: [SiJavascript, SiHtml5, SiCss3],
+        //     link: "https://parin-parikh.github.io/Music-Player/",
+        //     cover: "/music-player.PNG",
+        //     background: "bg-indigo-500",
+        //     githubLink: "https://github.com/parin-parikh/Music-Player/",
+        //     demo: true,
+        //     github: true
+        // }
     ]
     return (
         <div className='py-10 p-5 sm:p-0'>

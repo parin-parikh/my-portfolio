@@ -40,7 +40,7 @@ export default function Projects() {
         {
             title: "Generate Images with AI",
             tech: [SiNextdotjs, SiReact, SiTailwindcss, SiMicrosoftazure, SiTypescript, SiOpenai],
-            link: "hhttps://ai-image-generator-kappa-beryl.vercel.app/",
+            link: "https://ai-image-generator-kappa-beryl.vercel.app/",
             cover: "/ai-image-generator.PNG",
             background: "bg-indigo-500",
             githubLink: "https://github.com/parin-parikh/ai-image-generator",
